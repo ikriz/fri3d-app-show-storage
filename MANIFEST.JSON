@@ -1,0 +1,21 @@
+{
+  "name": "Show Storage",
+  "publisher": "ikriz",
+  "short_description": "Storage Overview",
+  "long_description": "App to show available internal storage space and any mounted SD card available space.",
+  "fullname": "nl.ikriz.show_storage",
+  "version": "0.2.0",
+  "category": "utilities",
+  "activities": [
+    {
+      "entrypoint": "main.py",
+      "classname": "Main",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
